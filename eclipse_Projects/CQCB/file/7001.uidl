@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dc:Scene xmlns="com.dcfs.teller.client.ui" xmlns:content="com.dcfs.teller.client.ui" xmlns:dc="com.dcfs.teller.client.ui" coordinate="0,0" dc:id="7001" dc:text="7001_0">
+  <dc:ViewLayout xwidth="740">
+    <dc:Label dc:text="7001_1" coordinate="30,205"/>
+    <dc:Label dc:text="7001_2" coordinate="370,175"/>
+    <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="150,25" dc:ref="TPS_GRTC_QDLX"/>
+    <dc:Label dc:text="7001_3" coordinate="355,535"/>
+    <dc:Label dc:text="7001_4" coordinate="355,505"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="135,535"/>
+    <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="135,505" dc:ref="CORE_新对私证件类型"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="475,505"/>
+    <dc:Label dc:text="7001_5" coordinate="15,535"/>
+    <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="475,535" dc:ref="TPSYWLX"/>
+    <dc:Label dc:text="7001_6" coordinate="15,505"/>
+    <dc:Label dc:text="7001_7" coordinate="30,25"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="135,445"/>
+    <dc:Label dc:text="7001_8" coordinate="15,445"/>
+    <dc:Label dc:text="7001_9" coordinate="30,55"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="135,475" dc:id="TRAN_AMT7"/>
+    <dc:Label dc:text="7001_10" coordinate="15,475"/>
+    <dc:Label dc:text="7001_11" coordinate="370,55"/>
+    <dc:Label dc:text="7001_12" coordinate="30,85"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="780,320"/>
+    <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="135,385" dc:ref="TPS_GRTC_ZKFS"/>
+    <dc:Label dc:text="7001_13" coordinate="15,385"/>
+    <dc:TextField xwidth="515" enabled="true" coordinate="150,145"/>
+    <dc:Label dc:text="7001_14" coordinate="30,235"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="135,385"/>
+    <dc:Label dc:text="7001_2" coordinate="15,385"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="150,115" dc:id="PAYEE_ACCT15"/>
+    <dc:Label dc:text="7001_15" coordinate="670,205"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="490,175"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="135,415"/>
+    <dc:Label dc:text="7001_16" coordinate="15,415"/>
+    <dc:SubArea dc:text="7001_17" coordinate="10,795">
+      <dc:Label dc:text="7001_18" coordinate="350,5"/>
+      <dc:TextField xwidth="500" enabled="true" coordinate="130,35"/>
+      <dc:Label dc:text="7001_19" coordinate="5,35"/>
+      <dc:TextField xwidth="175" enabled="true" coordinate="130,5"/>
+      <dc:Label dc:text="7001_20" coordinate="5,5"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="455,5" dc:ref="TPS_GRTC_HZZT"/>
+    </dc:SubArea>
+    <dc:TextField xwidth="175" enabled="true" coordinate="135,445"/>
+    <dc:Label dc:text="7001_21" coordinate="15,445"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="135,390"/>
+    <dc:Label dc:text="7001_22" coordinate="15,390"/>
+    <dc:Label dc:text="7001_23" coordinate="30,265"/>
+    <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="150,265" dc:ref="TPS_GRTC_XZBZ"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="135,415"/>
+    <dc:Label dc:text="7001_24" coordinate="15,415"/>
+    <dc:Label dc:text="7001_25" coordinate="680,320"/>
+    <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="150,175" dc:ref="TPS_GRTC_PZZL"/>
+    <dc:Label dc:text="7001_26" coordinate="15,355"/>
+    <dc:TextField xwidth="515" enabled="true" coordinate="135,355"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="135,325"/>
+    <dc:Label dc:text="7001_27" coordinate="15,325"/>
+    <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="475,295" dc:ref="TPS_GRTC_CZLX5"/>
+    <dc:Label dc:text="7001_28" coordinate="355,295"/>
+    <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="135,295" dc:ref="TPS_GRTC_FKZHLX0"/>
+    <dc:Label dc:text="7001_29" coordinate="15,295"/>
+    <dc:TextField xwidth="515" enabled="true" coordinate="150,205"/>
+    <dc:Label dc:text="7001_30" coordinate="30,145"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="150,235"/>
+    <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="150,55" dc:ref="TPS_GRTC_YWLX"/>
+    <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="490,55" dc:ref="TPS_GRTC_YWZL"/>
+    <dc:Label dc:text="7001_31" coordinate="30,115"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="760,205"/>
+    <dc:Label dc:text="7001_32" coordinate="15,625"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="135,625"/>
+    <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="135,595" dc:ref="CORE_新对私证件类型"/>
+    <dc:Label dc:text="7001_33" coordinate="15,595"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="475,595"/>
+    <dc:Label dc:text="7001_34" coordinate="355,595"/>
+    <dc:TextField xwidth="515" enabled="true" coordinate="135,565"/>
+    <dc:Label dc:text="7001_35" coordinate="15,565"/>
+    <dc:Label dc:text="7001_28" coordinate="370,85"/>
+    <dc:Label dc:text="7001_36" coordinate="355,655"/>
+    <dc:TextField xwidth="515" enabled="true" coordinate="135,685"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="475,655" dc:id="DISCOUNT_AMT39"/>
+    <dc:Label dc:text="7001_37" coordinate="15,685"/>
+    <dc:TextField xwidth="175" enabled="true" coordinate="135,655"/>
+    <dc:Label dc:text="7001_38" coordinate="15,655"/>
+    <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="150,85" dc:ref="TPS_GRTC_SKRZHLX0"/>
+    <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="490,85" dc:ref="TPS_GRTC_CZLX"/>
+    <dc:Label dc:text="7001_39" coordinate="30,175"/>
+  </dc:ViewLayout>
+</dc:Scene>

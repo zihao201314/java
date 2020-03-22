@@ -1,0 +1,9 @@
+abfpathAndName = "D:\Program Files\feiq\Recv Files\abf\Tps7001.abf";
+path = "F:\eclipse-workspace\CQCB\file";
+ID = "7001";
+
+
+注意:	
+	abfpathAndName:赞同的abf文件路径和文件名
+	path:需要输出的位置
+	ID:交易的交易码

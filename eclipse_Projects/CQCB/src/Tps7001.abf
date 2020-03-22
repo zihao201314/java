@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="GBK"?>
+<content>
+    <entry key="layout#layout" value="xy" type="String"/>
+    <entry key="constraints#xy_location" value="0,0" type="String"/>
+    <entry key="constraints#xy_size" value="1009,933" type="String"/>
+    <entry key="title" value="" type="String"/>
+    <entry key="tooltip" value="" type="String"/>
+    <entry key="enable" value="true" type="Boolean"/>
+    <entry key="visible" value="true" type="Boolean"/>
+    <entry key="scrollable" value="false" type="Boolean"/>
+    <entry key="backgroundImage" value="" type="String"/>
+    <entry key="backgroundImageType" value="平铺" type="String"/>
+    <entry key="parent_trade" value="" type="String"/>
+    <entry key="help" value="个人通存" type="String"/>
+    <entry key="methods"
+        value="combo_操作类型_OnBlur,button_确定_OnClick,text_收款行行名_OnBlur,combo1_操作类型_OnBlur,text_付款人账号_OnBlur,combo_支控方式_OnSelectionChanged,text_存折余额_OnBlur,text_交易金额_OnBlur,combo_凭证种类_OnBlur,button_取消_OnClick,text_密码_OnBlur,text_密码_OnFocus,text_付款人名称_OnFocus,combo_现转标识_OnSelectionChanged,text_收款行行号_OnBlur,combo_是否代办_OnBlur,text_付款人证件号码_OnBlur,text_代办人证件号码_OnBlur,combo_代办人证件类型_OnBlur,combo_付款人证件类型_OnBlur,combo_是否代办_OnSelectionChanged,combo_现转标识_OnBlur" type="String"/>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="30,25" type="String"/>
+        <entry key="constraints#xy_size" value="65,20" type="String"/>
+        <entry key="id" value="label_渠道类型" type="String"/>
+        <entry key="text" value="渠道类型" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Combo">
+        <entry key="constraints#xy_location" value="150,25" type="String"/>
+        <entry key="constraints#xy_size" value="175,20" type="String"/>
+        <entry key="id" value="combo_渠道类型" type="String"/>
+        <entry key="combo_items" value="," type="String[]"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="requisite" value="true" type="Boolean"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="combo_read_only" value="true" type="Boolean"/>
+        <entry key="combo_items_para_file"
+            value="/${project_name}/resources/para/DG_field.hlp" type="String"/>
+        <entry key="combo_items_list_name" value="TPS_GRTC_QDLX" type="String"/>
+        <entry key="combo_items_splitor" value="" type="String"/>
+        <entry key="visible_item_count" value="4" type="Integer"/>
+        <entry key="combo_items_provider_name" value="" type="String"/>
+        <entry key="combo_items_provider_param" value="" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="30,55" type="String"/>
+        <entry key="constraints#xy_size" value="65,20" type="String"/>
+        <entry key="id" value="label_业务类型" type="String"/>
+        <entry key="text" value="业务类型" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Combo">
+        <entry key="constraints#xy_location" value="150,55" type="String"/>
+        <entry key="constraints#xy_size" value="175,20" type="String"/>
+        <entry key="id" value="combo_业务类型" type="String"/>
+        <entry key="combo_items" value="," type="String[]"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="requisite" value="true" type="Boolean"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="combo_read_only" value="true" type="Boolean"/>
+        <entry key="combo_items_para_file"
+            value="/${project_name}/resources/para/DG_field.hlp" type="String"/>
+        <entry key="combo_items_list_name" value="TPS_GRTC_YWLX" type="String"/>
+        <entry key="combo_items_splitor" value="" type="String"/>
+        <entry key="visible_item_count" value="4" type="Integer"/>
+        <entry key="combo_items_provider_name" value="" type="String"/>
+        <entry key="combo_items_provider_param" value="" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Combo">
+        <entry key="constraints#xy_location" value="490,55" type="String"/>
+        <entry key="constraints#xy_size" value="175,20" type="String"/>
+        <entry key="id" value="combo_业务种类" type="String"/>
+        <entry key="combo_items" value="00001 个人通存" type="String[]"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="requisite" value="true" type="Boolean"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="combo_read_only" value="true" type="Boolean"/>
+        <entry key="combo_items_para_file"
+            value="/${project_name}/resources/para/DG_field.hlp" type="String"/>
+        <entry key="combo_items_list_name" value="TPS_GRTC_YWZL" type="String"/>
+        <entry key="combo_items_splitor" value="" type="String"/>
+        <entry key="visible_item_count" value="4" type="Integer"/>
+        <entry key="combo_items_provider_name" value="" type="String"/>
+        <entry key="combo_items_provider_param" value="" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="370,55" type="String"/>
+        <entry key="constraints#xy_size" value="70,20" type="String"/>
+        <entry key="id" value="label_业务种类" type="String"/>
+        <entry key="text" value="业务种类" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="30,85" type="String"/>
+        <entry key="constraints#xy_size" value="110,20" type="String"/>
+        <entry key="id" value="label_收款人账户类型" type="String"/>
+        <entry key="text" value="收款人账户类型" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Combo">
+        <entry key="constraints#xy_location" value="150,85" type="String"/>
+        <entry key="constraints#xy_size" value="175,20" type="String"/>
+        <entry key="id" value="combo_收款人账户类型" type="String"/>
+        <entry key="combo_items" value="," type="String[]"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="requisite" value="true" type="Boolean"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="combo_read_only" value="true" type="Boolean"/>
+        <entry key="combo_items_para_file"
+            value="/${project_name}/resources/para/DG_field.hlp" type="String"/>
+        <entry key="combo_items_list_name" value="TPS_GRTC_SKRZHLX0" type="String"/>
+        <entry key="combo_items_splitor" value="" type="String"/>
+        <entry key="visible_item_count" value="4" type="Integer"/>
+        <entry key="combo_items_provider_name" value="" type="String"/>
+        <entry key="combo_items_provider_param" value="" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Combo">
+        <entry key="constraints#xy_location" value="490,85" type="String"/>
+        <entry key="constraints#xy_size" value="175,20" type="String"/>
+        <entry key="id" value="combo_操作类型" type="String"/>
+        <entry key="combo_items" value="," type="String[]"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="requisite" value="true" type="Boolean"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="combo_read_only" value="true" type="Boolean"/>
+        <entry key="combo_items_para_file"
+            value="/${project_name}/resources/para/DG_field.hlp" type="String"/>
+        <entry key="combo_items_list_name" value="TPS_GRTC_CZLX" type="String"/>
+        <entry key="combo_items_splitor" value="" type="String"/>
+        <entry key="visible_item_count" value="4" type="Integer"/>
+        <entry key="combo_items_provider_name" value="" type="String"/>
+        <entry key="combo_items_provider_param" value="" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="370,85" type="String"/>
+        <entry key="constraints#xy_size" value="80,20" type="String"/>
+        <entry key="id" value="label_操作类型" type="String"/>
+        <entry key="text" value="操作类型" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="30,115" type="String"/>
+        <entry key="constraints#xy_size" value="80,20" type="String"/>
+        <entry key="id" value="label_收款人账号" type="String"/>
+        <entry key="text" value="收款人账号" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="150,115" type="String"/>
+        <entry key="constraints#xy_size" value="175,20" type="String"/>
+        <entry key="id" value="text_收款人账号" type="String"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="password" value="false" type="Boolean"/>
+        <entry key="requisite" value="true" type="Boolean"/>
+        <entry key="editable" value="true" type="Boolean"/>
+        <entry key="picture" value="" type="String"/>
+        <entry key="charNum" value="-1" type="Integer"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="30,145" type="String"/>
+        <entry key="constraints#xy_size" value="80,20" type="String"/>
+        <entry key="id" value="label_收款人名称" type="String"/>
+        <entry key="text" value="收款人名称" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="150,145" type="String"/>
+        <entry key="constraints#xy_size" value="515,20" type="String"/>
+        <entry key="id" value="text_收款人名称" type="String"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="password" value="false" type="Boolean"/>
+        <entry key="requisite" value="true" type="Boolean"/>
+        <entry key="editable" value="true" type="Boolean"/>
+        <entry key="picture" value="" type="String"/>
+        <entry key="charNum" value="-1" type="Integer"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="30,175" type="String"/>
+        <entry key="constraints#xy_size" value="65,20" type="String"/>
+        <entry key="id" value="label_凭证种类" type="String"/>
+        <entry key="text" value="凭证种类" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Combo">
+        <entry key="constraints#xy_location" value="150,175" type="String"/>
+        <entry key="constraints#xy_size" value="175,20" type="String"/>
+        <entry key="id" value="combo_凭证种类" type="String"/>
+        <entry key="combo_items" value="," type="String[]"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="requisite" value="true" type="Boolean"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="combo_read_only" value="true" type="Boolean"/>
+        <entry key="combo_items_para_file"
+            value="/${project_name}/resources/para/DG_field.hlp" type="String"/>
+        <entry key="combo_items_list_name" value="TPS_GRTC_PZZL" type="String"/>
+        <entry key="combo_items_splitor" value="" type="String"/>
+        <entry key="visible_item_count" value="4" type="Integer"/>
+        <entry key="combo_items_provider_name" value="" type="String"/>
+        <entry key="combo_items_provider_param" value="" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="490,175" type="String"/>
+        <entry key="constraints#xy_size" value="175,20" type="String"/>
+        <entry key="id" value="text_凭证号码" type="String"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="password" value="false" type="Boolean"/>
+        <entry key="requisite" value="false" type="Boolean"/>
+        <entry key="editable" value="true" type="Boolean"/>
+        <entry key="picture" value="" type="String"/>
+        <entry key="charNum" value="-1" type="Integer"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="370,175" type="String"/>
+        <entry key="constraints#xy_size" value="80,20" type="String"/>
+        <entry key="id" value="label_凭证号码" type="String"/>
+        <entry key="text" value="凭证号码" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="30,205" type="String"/>
+        <entry key="constraints#xy_size" value="80,20" type="String"/>
+        <entry key="id" value="label_收款行行名" type="String"/>
+        <entry key="text" value="收款行行名" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="150,205" type="String"/>
+        <entry key="constraints#xy_size" value="515,20" type="String"/>
+        <entry key="id" value="text_收款行行名" type="String"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="password" value="false" type="Boolean"/>
+        <entry key="requisite" value="true" type="Boolean"/>
+        <entry key="editable" value="true" type="Boolean"/>
+        <entry key="picture" value="" type="String"/>
+        <entry key="charNum" value="-1" type="Integer"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="670,205" type="String"/>
+        <entry key="constraints#xy_size" value="90,20" type="String"/>
+        <entry key="id" value="label_原交易流水号" type="String"/>
+        <entry key="text" value="原交易流水号" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="760,205" type="String"/>
+        <entry key="constraints#xy_size" value="175,20" type="String"/>
+        <entry key="id" value="text_原交易流水号" type="String"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="password" value="false" type="Boolean"/>
+        <entry key="requisite" value="false" type="Boolean"/>
+        <entry key="editable" value="false" type="Boolean"/>
+        <entry key="picture" value="16&quot;9&quot;" type="String"/>
+        <entry key="charNum" value="-1" type="Integer"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="30,235" type="String"/>
+        <entry key="constraints#xy_size" value="85,20" type="String"/>
+        <entry key="id" value="label_收款行行号" type="String"/>
+        <entry key="text" value="收款行行号" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="150,235" type="String"/>
+        <entry key="constraints#xy_size" value="175,20" type="String"/>
+        <entry key="id" value="text_收款行行号" type="String"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="password" value="false" type="Boolean"/>
+        <entry key="requisite" value="true" type="Boolean"/>
+        <entry key="editable" value="true" type="Boolean"/>
+        <entry key="picture" value="" type="String"/>
+        <entry key="charNum" value="-1" type="Integer"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="30,265" type="String"/>
+        <entry key="constraints#xy_size" value="65,20" type="String"/>
+        <entry key="id" value="label_现转标识" type="String"/>
+        <entry key="text" value="现转标识" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Combo">
+        <entry key="constraints#xy_location" value="150,265" type="String"/>
+        <entry key="constraints#xy_size" value="175,20" type="String"/>
+        <entry key="id" value="combo_现转标识" type="String"/>
+        <entry key="combo_items" value="," type="String[]"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="requisite" value="true" type="Boolean"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="combo_read_only" value="true" type="Boolean"/>
+        <entry key="combo_items_para_file"
+            value="/${project_name}/resources/para/DG_field.hlp" type="String"/>
+        <entry key="combo_items_list_name" value="TPS_GRTC_XZBZ" type="String"/>
+        <entry key="combo_items_splitor" value="" type="String"/>
+        <entry key="visible_item_count" value="4" type="Integer"/>
+        <entry key="combo_items_provider_name" value="" type="String"/>
+        <entry key="combo_items_provider_param" value="" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="15,290" type="String"/>
+        <entry key="constraints#xy_size" value="660,30" type="String"/>
+        <entry key="id" value="composite_付款账户类型区域" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="scrollable" value="false" type="Boolean"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,5" type="String"/>
+            <entry key="constraints#xy_size" value="95,20" type="String"/>
+            <entry key="id" value="label_付款账户类型" type="String"/>
+            <entry key="text" value="付款账户类型" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Combo">
+            <entry key="constraints#xy_location" value="135,5" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="combo_付款账户类型" type="String"/>
+            <entry key="combo_items" value="," type="String[]"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="requisite" value="true" type="Boolean"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="combo_read_only" value="true" type="Boolean"/>
+            <entry key="combo_items_para_file"
+                value="/${project_name}/resources/para/DG_field.hlp" type="String"/>
+            <entry key="combo_items_list_name" value="TPS_GRTC_FKZHLX0" type="String"/>
+            <entry key="combo_items_splitor" value="" type="String"/>
+            <entry key="visible_item_count" value="4" type="Integer"/>
+            <entry key="combo_items_provider_name" value="" type="String"/>
+            <entry key="combo_items_provider_param" value="" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="355,5" type="String"/>
+            <entry key="constraints#xy_size" value="65,20" type="String"/>
+            <entry key="id" value="label1_操作类型" type="String"/>
+            <entry key="text" value="操作类型" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Combo">
+            <entry key="constraints#xy_location" value="475,5" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="combo1_操作类型" type="String"/>
+            <entry key="combo_items" value="," type="String[]"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="requisite" value="true" type="Boolean"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="combo_read_only" value="true" type="Boolean"/>
+            <entry key="combo_items_para_file"
+                value="/${project_name}/resources/para/DG_field.hlp" type="String"/>
+            <entry key="combo_items_list_name" value="TPS_GRTC_CZLX5" type="String"/>
+            <entry key="combo_items_splitor" value="" type="String"/>
+            <entry key="visible_item_count" value="4" type="Integer"/>
+            <entry key="combo_items_provider_name" value="" type="String"/>
+            <entry key="combo_items_provider_param" value="" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="15,320" type="String"/>
+        <entry key="constraints#xy_size" value="660,60" type="String"/>
+        <entry key="id" value="composite_付款人账号区域" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="scrollable" value="false" type="Boolean"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,5" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label_付款人账号" type="String"/>
+            <entry key="text" value="付款人账号" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,5" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_付款人账号" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="true" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture" value="" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,35" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label_付款人名称" type="String"/>
+            <entry key="text" value="付款人名称" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,35" type="String"/>
+            <entry key="constraints#xy_size" value="515,20" type="String"/>
+            <entry key="id" value="text_付款人名称" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="true" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture" value="" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Label">
+        <entry key="constraints#xy_location" value="680,320" type="String"/>
+        <entry key="constraints#xy_size" value="70,20" type="String"/>
+        <entry key="id" value="label_IC卡信息"  type="String"/>
+        <entry key="text" value="IC卡信息"  type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="link" value="false" type="Boolean"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="background" value="210,210,210" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="font" value="宋体$11$0" type="FontData"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <entry key="hoverBackgroundImage" value="" type="String"/>
+    </bean>
+    <bean feature="Text">
+        <entry key="constraints#xy_location" value="780,320" type="String"/>
+        <entry key="constraints#xy_size" value="175,20" type="String"/>
+        <entry key="id" value="text_IC卡信息" type="String"/>
+        <entry key="text" value="" type="String"/>
+        <entry key="tooltip" value="" type="String"/>
+        <entry key="maxLength" value="0" type="Integer"/>
+        <entry key="vertical_alignment" value="2" type="Integer"/>
+        <entry key="horizontal_alignment" value="1" type="Integer"/>
+        <entry key="border" value="1" type="Integer"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="password" value="false" type="Boolean"/>
+        <entry key="requisite" value="false" type="Boolean"/>
+        <entry key="editable" value="false" type="Boolean"/>
+        <entry key="picture" value="" type="String"/>
+        <entry key="charNum" value="-1" type="Integer"/>
+        <entry key="background" value="255,255,255" type="String"/>
+        <entry key="foreground" value="0,0,0" type="String"/>
+        <entry key="font" value="宋体$11$0" type="String"/>
+        <entry key="help" value="" type="String"/>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="15,380" type="String"/>
+        <entry key="constraints#xy_size" value="330,30" type="String"/>
+        <entry key="id" value="composite_支控方式" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="scrollable" value="false" type="Boolean"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,5" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label_支控方式" type="String"/>
+            <entry key="text" value="支控方式" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Combo">
+            <entry key="constraints#xy_location" value="135,5" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="combo_支控方式" type="String"/>
+            <entry key="combo_items" value="," type="String[]"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="false" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="requisite" value="false" type="Boolean"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="combo_read_only" value="true" type="Boolean"/>
+            <entry key="combo_items_para_file"
+                value="/${project_name}/resources/para/DG_field.hlp" type="String"/>
+            <entry key="combo_items_list_name" value="TPS_GRTC_ZKFS" type="String"/>
+            <entry key="combo_items_splitor" value="" type="String"/>
+            <entry key="visible_item_count" value="4" type="Integer"/>
+            <entry key="combo_items_provider_name" value="" type="String"/>
+            <entry key="combo_items_provider_param" value="" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="355,380" type="String"/>
+        <entry key="constraints#xy_size" value="320,30" type="String"/>
+        <entry key="id" value="composite_凭证号码" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="scrollable" value="false" type="Boolean"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,5" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label1_凭证号码" type="String"/>
+            <entry key="text" value="凭证号码" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,5" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text1_凭证号码" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="false" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture" value="" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="700,385" type="String"/>
+        <entry key="constraints#xy_size" value="320,30" type="String"/>
+        <entry key="id" value="composite_存折余额" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="scrollable" value="false" type="Boolean"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,5" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label_存折余额" type="String"/>
+            <entry key="text" value="存折余额" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="false" type="Boolean"/>
+            <entry key="visible" value="false" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,5" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_存折余额" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="4" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="false" type="Boolean"/>
+            <entry key="visible" value="false" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="false" type="Boolean"/>
+            <entry key="editable" value="false" type="Boolean"/>
+            <entry key="picture"
+                value="&quot;9,999,999,999,999.99&quot;" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="15,410" type="String"/>
+        <entry key="constraints#xy_size" value="320,30" type="String"/>
+        <entry key="id" value="composite_支付密码" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="scrollable" value="false" type="Boolean"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,5" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label_支付密码" type="String"/>
+            <entry key="text" value="支付密码" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,5" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_支付密码" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="false" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture" value="" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="355,410" type="String"/>
+        <entry key="constraints#xy_size" value="320,30" type="String"/>
+        <entry key="id" value="composite_密码" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="scrollable" value="false" type="Boolean"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,5" type="String"/>
+            <entry key="constraints#xy_size" value="35,20" type="String"/>
+            <entry key="id" value="label_密码" type="String"/>
+            <entry key="text" value="密码" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,5" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_密码" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="true" type="Boolean"/>
+            <entry key="requisite" value="false" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture" value="" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="15,440" type="String"/>
+        <entry key="constraints#xy_size" value="320,30" type="String"/>
+        <entry key="id" value="composite_证件号码" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="scrollable" value="false" type="Boolean"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,5" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label_证件号码" type="String"/>
+            <entry key="text" value="证件号码" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,5" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_证件号码" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="false" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture" value="" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="355,440" type="String"/>
+        <entry key="constraints#xy_size" value="320,30" type="String"/>
+        <entry key="id" value="composite_印鉴编码" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="scrollable" value="false" type="Boolean"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,5" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label_印鉴编码" type="String"/>
+            <entry key="text" value="印鉴编码" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,5" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_印鉴编码" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="false" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture" value="" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="15,470" type="String"/>
+        <entry key="constraints#xy_size" value="320,35" type="String"/>
+        <entry key="id" value="composite_交易金额" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,5" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label_交易金额" type="String"/>
+            <entry key="text" value="交易金额" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,5" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_交易金额" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="4" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="true" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture"
+                value="&quot;9,999,999,999,999,999,999.99&quot;" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="15,505" type="String"/>
+        <entry key="constraints#xy_size" value="660,55" type="String"/>
+        <entry key="id" value="composite_付款人信息" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,0" type="String"/>
+            <entry key="constraints#xy_size" value="110,20" type="String"/>
+            <entry key="id" value="label3" type="String"/>
+            <entry key="text" value="付款人证件类型" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Combo">
+            <entry key="constraints#xy_location" value="135,0" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="combo_付款人证件类型" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="requisite" value="true" type="Boolean"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="combo_read_only" value="true" type="Boolean"/>
+            <entry key="combo_items_para_file"
+                value="/${project_name}/resources/para/CR_field.hlp" type="String"/>
+            <entry key="combo_items_list_name" value="CORE_新对私证件类型" type="String"/>
+            <entry key="combo_items_splitor" value="" type="String"/>
+            <entry key="visible_item_count" value="4" type="Integer"/>
+            <entry key="combo_items_provider_name" value="" type="String"/>
+            <entry key="combo_items_provider_param" value="" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="355,0" type="String"/>
+            <entry key="constraints#xy_size" value="110,20" type="String"/>
+            <entry key="id" value="label4" type="String"/>
+            <entry key="text" value="付款人证件号码" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="475,0" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_付款人证件号码" type="String"/>
+            <entry key="picture" value="-50&quot;X&quot;" type="String"/>
+        </bean>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,30" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label2" type="String"/>
+            <entry key="text" value="付款人电话" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,30" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_付款人电话" type="String"/>
+            <entry key="picture" value="-18&quot;X&quot;" type="String"/>
+        </bean>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="355,30" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label9" type="String"/>
+            <entry key="text" value="是否代办" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Combo">
+            <entry key="constraints#xy_location" value="475,30" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="combo_是否代办" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="requisite" value="true" type="Boolean"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="combo_read_only" value="true" type="Boolean"/>
+            <entry key="combo_items_para_file"
+                value="/${project_name}/resources/para/DG_field.hlp" type="String"/>
+            <entry key="combo_items_list_name" value="TPSYWLX" type="String"/>
+            <entry key="combo_items_splitor" value="" type="String"/>
+            <entry key="visible_item_count" value="4" type="Integer"/>
+            <entry key="combo_items_provider_name" value="" type="String"/>
+            <entry key="combo_items_provider_param" value="" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="15,560" type="String"/>
+        <entry key="constraints#xy_size" value="660,95" type="String"/>
+        <entry key="id" value="composite_代办人信息" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,5" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label5" type="String"/>
+            <entry key="text" value="代办人名称" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,5" type="String"/>
+            <entry key="constraints#xy_size" value="515,20" type="String"/>
+            <entry key="id" value="text_代办人名称" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="true" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture" value="-150&quot;X&quot;" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,35" type="String"/>
+            <entry key="constraints#xy_size" value="110,20" type="String"/>
+            <entry key="id" value="label6" type="String"/>
+            <entry key="text" value="代办人证件类型" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Combo">
+            <entry key="constraints#xy_location" value="135,35" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="combo_代办人证件类型" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="requisite" value="true" type="Boolean"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="combo_read_only" value="true" type="Boolean"/>
+            <entry key="combo_items_para_file"
+                value="/${project_name}/resources/para/CR_field.hlp" type="String"/>
+            <entry key="combo_items_list_name" value="CORE_新对私证件类型" type="String"/>
+            <entry key="combo_items_splitor" value="" type="String"/>
+            <entry key="visible_item_count" value="4" type="Integer"/>
+            <entry key="combo_items_provider_name" value="" type="String"/>
+            <entry key="combo_items_provider_param" value="" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="355,35" type="String"/>
+            <entry key="constraints#xy_size" value="110,20" type="String"/>
+            <entry key="id" value="label8" type="String"/>
+            <entry key="text" value="代办人证件号码" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="475,35" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_代办人证件号码" type="String"/>
+            <entry key="picture" value="-50&quot;X&quot;" type="String"/>
+        </bean>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,65" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label7" type="String"/>
+            <entry key="text" value="代办人电话" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,65" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_代办人电话" type="String"/>
+            <entry key="picture" value="-18&quot;X&quot;" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Composite">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="15,655" type="String"/>
+        <entry key="constraints#xy_size" value="660,110" type="String"/>
+        <entry key="id" value="composite_确定" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="scrollable" value="false" type="Boolean"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,0" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label_收费金额" type="String"/>
+            <entry key="text" value="收费金额" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,0" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_收费金额" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="4" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="true" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture"
+                value="&quot;9,999,999,999,999.99&quot;" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="355,0" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label_优惠金额" type="String"/>
+            <entry key="text" value="优惠金额" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="475,0" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_优惠金额" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="4" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="true" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture"
+                value="&quot;9,999,999,999,999.99&quot;" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="15,30" type="String"/>
+            <entry key="constraints#xy_size" value="50,20" type="String"/>
+            <entry key="id" value="label_附言" type="String"/>
+            <entry key="text" value="附言" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="135,30" type="String"/>
+            <entry key="constraints#xy_size" value="515,20" type="String"/>
+            <entry key="id" value="text_附言" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="false" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture" value="" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+        <bean feature="Button">
+            <entry key="constraints#xy_location" value="135,70" type="String"/>
+            <entry key="constraints#xy_size" value="90,28" type="String"/>
+            <entry key="id" value="button_确定" type="String"/>
+            <entry key="text" value="确   定" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="2" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+        <bean feature="Button">
+            <entry key="constraints#xy_location" value="475,70" type="String"/>
+            <entry key="constraints#xy_size" value="90,28" type="String"/>
+            <entry key="id" value="button_取消" type="String"/>
+            <entry key="text" value="取   消" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="2" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+    </bean>
+    <bean feature="Group">
+        <entry key="layout#layout" value="xy" type="String"/>
+        <entry key="constraints#xy_location" value="10,795" type="String"/>
+        <entry key="constraints#xy_size" value="665,80" type="String"/>
+        <entry key="id" value="group_返回信息" type="String"/>
+        <entry key="text" value="返回信息" type="String"/>
+        <entry key="enable" value="true" type="Boolean"/>
+        <entry key="visible" value="true" type="Boolean"/>
+        <entry key="scrollable" value="false" type="Boolean"/>
+        <entry key="backgroundImage" value="" type="String"/>
+        <entry key="backgroundImageType" value="平铺" type="String"/>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="5,5" type="String"/>
+            <entry key="constraints#xy_size" value="105,20" type="String"/>
+            <entry key="id" value="label_支付交易流水号" type="String"/>
+            <entry key="text" value="支付交易流水号" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="130,5" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="text_支付交易流水号" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="false" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture" value="" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="350,5" type="String"/>
+            <entry key="constraints#xy_size" value="80,20" type="String"/>
+            <entry key="id" value="label_回执状态" type="String"/>
+            <entry key="text" value="回执状态" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Combo">
+            <entry key="constraints#xy_location" value="455,5" type="String"/>
+            <entry key="constraints#xy_size" value="175,20" type="String"/>
+            <entry key="id" value="combo_回执状态" type="String"/>
+            <entry key="combo_items" value="," type="String[]"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="requisite" value="false" type="Boolean"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="combo_read_only" value="true" type="Boolean"/>
+            <entry key="combo_items_para_file"
+                value="/${project_name}/resources/para/DG_field.hlp" type="String"/>
+            <entry key="combo_items_list_name" value="TPS_GRTC_HZZT" type="String"/>
+            <entry key="combo_items_splitor" value="" type="String"/>
+            <entry key="visible_item_count" value="4" type="Integer"/>
+            <entry key="combo_items_provider_name" value="" type="String"/>
+            <entry key="combo_items_provider_param" value="" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+        <bean feature="Label">
+            <entry key="constraints#xy_location" value="5,35" type="String"/>
+            <entry key="constraints#xy_size" value="95,20" type="String"/>
+            <entry key="id" value="label_对方回执附言" type="String"/>
+            <entry key="text" value="对方回执附言" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="link" value="false" type="Boolean"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="background" value="210,210,210" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="backgroundImage" value="" type="String"/>
+            <entry key="font" value="宋体$11$0" type="FontData"/>
+            <entry key="backgroundImageType" value="平铺" type="String"/>
+            <entry key="hoverBackgroundImage" value="" type="String"/>
+        </bean>
+        <bean feature="Text">
+            <entry key="constraints#xy_location" value="130,35" type="String"/>
+            <entry key="constraints#xy_size" value="500,20" type="String"/>
+            <entry key="id" value="text_对方回执附言" type="String"/>
+            <entry key="text" value="" type="String"/>
+            <entry key="tooltip" value="" type="String"/>
+            <entry key="maxLength" value="0" type="Integer"/>
+            <entry key="vertical_alignment" value="2" type="Integer"/>
+            <entry key="horizontal_alignment" value="1" type="Integer"/>
+            <entry key="border" value="1" type="Integer"/>
+            <entry key="enable" value="true" type="Boolean"/>
+            <entry key="visible" value="true" type="Boolean"/>
+            <entry key="password" value="false" type="Boolean"/>
+            <entry key="requisite" value="false" type="Boolean"/>
+            <entry key="editable" value="true" type="Boolean"/>
+            <entry key="picture" value="" type="String"/>
+            <entry key="charNum" value="-1" type="Integer"/>
+            <entry key="background" value="255,255,255" type="String"/>
+            <entry key="foreground" value="0,0,0" type="String"/>
+            <entry key="font" value="宋体$11$0" type="String"/>
+            <entry key="help" value="" type="String"/>
+        </bean>
+    </bean>
+</content>

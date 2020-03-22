@@ -1,0 +1,332 @@
+{汇票种类=BILL_CODE, 汇票号码=BILL_NO, 申请人账号=APPLYER_ACCT_NO, 签发行名称=BILL_AGENT_BANK_NAME, 原挂失书号=BUSI_REF_NO, 优惠金额=DISCOUNT_AMT, 现金兑付行=BILL_ACCEPT_BANK, 解付金额=SETTLE_AMT, 交易金额=TRAN_AMT, 申请开户行=APPLYER_BANK_CODE, 解挂原因=HANGUP_REMARK, 汇划费=REMITTANCE_FEE, 日志号=LOG_NO, 出票日期=BILL_SIGN_DATE, 收款人开户行=PAYEE_BANK, 报文标示号=MSG_SEQ_NO, 提示付款日期=PROMPT_DATE, 收款人账号=PAYEE_ACCT, 挂失日期=REPORT_LOSS_DATE, 代理账号=AGENT_ACCT, 原交易日志号=REVERSAL_LOG_NO, 兑付类型=PAY_TYPE, 授权员=AUTH_OPR}
+groupTableBox1-----------------------------------------------------
+groupBox3-----------------------------------------------------
+groupBox2-----------------------------------------------------
+groupBox7-----------------------------------------------------
+groupBox6-----------------------------------------------------
+groupBox5-----------------------------------------------------
+groupBox4-----------------------------------------------------
+groupBox8-----------------------------------------------------
+
+
+-----------uidl文件开始输出！------
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dc:Scene xmlns="com.dcfs.teller.client.ui" xmlns:content="com.dcfs.teller.client.ui" xmlns:dc="com.dcfs.teller.client.ui" coordinate="0,0" dc:id="6024" dc:text="6024_0">
+  <dc:ViewLayout xwidth="740">
+    <dc:SubArea dc:text="6024_1" coordinate="25,5">
+      <dc:Label dc:text="6024_2" coordinate="25,65"/>
+      <dc:Label dc:text="6024_3" coordinate="355,65"/>
+      <dc:CalendarText xwidth="205" enabled="true" coordinate="445,5"/>
+      <dc:CalendarText xwidth="205" enabled="true" coordinate="115,5"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="115,35" dc:ref="TPSCXLX6412"/>
+      <dc:Label dc:text="6024_4" coordinate="25,5"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="445,65"/>
+      <dc:Label dc:text="6024_5" coordinate="355,35"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="115,65"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="445,35"/>
+      <dc:Label dc:text="6024_6" coordinate="355,5"/>
+      <dc:Label dc:text="6024_7" coordinate="25,35"/>
+      <dc:DataGrid export="true" readonly="true" enabled="true" coordinate="5,145">
+        <columns>
+          <dc:DataGrid.Column width="138" controltype="TextField" dc:text="6024_8"/>
+          <dc:DataGrid.Column width="146" controltype="TextField" dc:text="6024_9"/>
+          <dc:DataGrid.Column width="125" controltype="TextField" dc:text="6024_10" name="BILL_SIGN_DATE"/>
+          <dc:DataGrid.Column width="175" controltype="TextField" dc:text="6024_11"/>
+          <dc:DataGrid.Column width="150" controltype="TextField" dc:text="6024_12"/>
+          <dc:DataGrid.Column width="117" controltype="TextField" dc:text="6024_13"/>
+          <dc:DataGrid.Column width="143" controltype="TextField" dc:text="6024_5"/>
+          <dc:DataGrid.Column width="145" controltype="TextField" dc:text="6024_2"/>
+        </columns>
+      </dc:DataGrid>
+    </dc:SubArea>
+    <dc:SubArea dc:text="6024_14" coordinate="25,1060">
+      <dc:Label dc:text="6024_10" coordinate="19,64"/>
+      <dc:Label dc:text="6024_15" coordinate="19,274"/>
+      <dc:Label dc:text="6024_16" coordinate="354,64"/>
+      <dc:Label dc:text="6024_17" coordinate="20,300"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,35" dc:id="LOG_NO1"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="465,5"/>
+      <dc:Label dc:text="6024_18" coordinate="19,244"/>
+      <dc:Label dc:text="6024_19" coordinate="19,124"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="144,4"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="144,94" dc:ref="TPSHPZL6401" dc:id="BILL_CODE1"/>
+      <dc:Label dc:text="6024_20" coordinate="19,94"/>
+      <dc:Label dc:text="6024_21" coordinate="19,329"/>
+      <dc:TextField xwidth="325" enabled="true" coordinate="145,185" dc:id="APPLYER_ACCT_NO1"/>
+      <dc:Label dc:text="6024_22" coordinate="354,94"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,155"/>
+      <dc:Label dc:text="6024_23" coordinate="19,359"/>
+      <dc:Label dc:text="6024_24" coordinate="350,35"/>
+      <dc:TextField xwidth="490" enabled="true" coordinate="145,455"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="464,124"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,425" dc:id="TRAN_AMT1"/>
+      <dc:Label dc:text="6024_11" coordinate="20,5"/>
+      <dc:Label dc:text="6024_25" coordinate="349,4"/>
+      <dc:TextField xwidth="490" enabled="true" coordinate="145,395"/>
+      <dc:Label dc:text="6024_26" coordinate="20,35"/>
+      <dc:TextField xwidth="325" enabled="true" coordinate="146,366" dc:id="PAYEE_ACCT1"/>
+      <dc:Label dc:text="6024_27" coordinate="350,125"/>
+      <dc:Label dc:text="6024_12" coordinate="354,154"/>
+      <dc:Label dc:text="6024_28" coordinate="19,449"/>
+      <dc:Label dc:text="6024_29" coordinate="20,155"/>
+      <dc:CalendarText xwidth="205" enabled="true" coordinate="144,64" dc:id="BILL_SIGN_DATE1"/>
+      <dc:Label dc:text="6024_30" coordinate="19,389"/>
+      <dc:Label dc:text="6024_31" coordinate="19,419"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="464,94"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="465,155" dc:ref="TPSJYZTALL"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,335" dc:id="BILL_ACCEPT_BANK1"/>
+      <dc:Label dc:text="6024_32" coordinate="19,184"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="464,64" dc:id="BILL_NO1"/>
+      <dc:TextField xwidth="490" enabled="true" coordinate="145,305"/>
+      <dc:Label dc:text="6024_33" coordinate="19,214"/>
+      <dc:TextField xwidth="490" enabled="true" coordinate="145,275"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="465,35"/>
+      <dc:TextField xwidth="325" enabled="true" coordinate="146,246" dc:id="AGENT_ACCT1"/>
+      <dc:TextField xwidth="490" enabled="true" coordinate="145,215"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="144,124" dc:ref="TPSSQKHH6401" dc:id="APPLYER_BANK_CODE1"/>
+    </dc:SubArea>
+    <dc:SubArea dc:text="6024_14" coordinate="25,415">
+      <dc:Label dc:text="6024_10" coordinate="19,99"/>
+      <dc:Label dc:text="6024_34" coordinate="349,99"/>
+      <dc:Label dc:text="6024_35" coordinate="349,69"/>
+      <dc:Label dc:text="6024_20" coordinate="19,129"/>
+      <dc:Label dc:text="6024_19" coordinate="349,129"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="135,490" dc:id="DISCOUNT_AMT2"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="135,460"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="444,459" dc:id="REMITTANCE_FEE2"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="134,429" dc:id="TRAN_AMT2"/>
+      <dc:TextField xwidth="480" enabled="true" coordinate="135,400"/>
+      <dc:Label dc:text="6024_36" coordinate="20,460"/>
+      <dc:CalendarText xwidth="205" enabled="true" coordinate="135,100" dc:id="BILL_SIGN_DATE2"/>
+      <dc:Label dc:text="6024_37" coordinate="355,460"/>
+      <dc:Label dc:text="6024_38" coordinate="20,490"/>
+      <dc:Label dc:text="6024_31" coordinate="19,429"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="445,100"/>
+      <dc:Label dc:text="6024_28" coordinate="20,520"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="135,70"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="444,69"/>
+      <dc:TextField xwidth="480" enabled="true" coordinate="135,520"/>
+      <dc:Label dc:text="6024_21" coordinate="19,309"/>
+      <dc:Label dc:text="6024_17" coordinate="19,339"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="135,40"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="444,39"/>
+      <dc:Label dc:text="6024_15" coordinate="19,279"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="135,10"/>
+      <dc:Label dc:text="6024_23" coordinate="19,369"/>
+      <dc:TextField xwidth="480" enabled="true" coordinate="135,220"/>
+      <dc:Label dc:text="6024_30" coordinate="19,399"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="135,130" dc:ref="TPSHPZL6401" dc:id="BILL_CODE2"/>
+      <dc:TextField xwidth="315" enabled="true" coordinate="135,190" dc:id="APPLYER_ACCT_NO2"/>
+      <dc:Label dc:text="6024_39" coordinate="19,69"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="135,160"/>
+      <dc:Label dc:text="6024_24" coordinate="349,39"/>
+      <dc:Label dc:text="6024_40" coordinate="15,40"/>
+      <dc:Label dc:text="6024_12" coordinate="349,159"/>
+      <dc:Label dc:text="6024_32" coordinate="20,190"/>
+      <dc:Label dc:text="6024_27" coordinate="19,159"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="445,160" dc:ref="TPSJYZTALL"/>
+      <dc:Label dc:text="6024_11" coordinate="19,10"/>
+      <dc:TextField xwidth="315" enabled="true" coordinate="134,369" dc:id="PAYEE_ACCT2"/>
+      <dc:Label dc:text="6024_33" coordinate="19,219"/>
+      <dc:TextField xwidth="480" enabled="true" coordinate="135,340"/>
+      <dc:Label dc:text="6024_18" coordinate="19,249"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="134,309" dc:id="BILL_ACCEPT_BANK2"/>
+      <dc:TextField xwidth="480" enabled="true" coordinate="135,280"/>
+      <dc:TextField xwidth="315" enabled="true" coordinate="135,250" dc:id="AGENT_ACCT2"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="445,130" dc:ref="TPSSQKHH6401" dc:id="APPLYER_BANK_CODE2"/>
+    </dc:SubArea>
+    <dc:SubArea dc:text="6024_14" coordinate="25,3000">
+      <dc:Label dc:text="6024_41" coordinate="20,75"/>
+      <dc:Label dc:text="6024_23" coordinate="20,345"/>
+      <dc:Label dc:text="6024_5" coordinate="370,75"/>
+      <dc:Label dc:text="6024_30" coordinate="19,375"/>
+      <dc:Label dc:text="6024_32" coordinate="20,285"/>
+      <dc:Label dc:text="6024_33" coordinate="19,314"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,15"/>
+      <dc:Label dc:text="6024_22" coordinate="20,135"/>
+      <dc:TextField xwidth="320" enabled="true" coordinate="144,284" dc:id="APPLYER_ACCT_NO3"/>
+      <dc:CalendarText xwidth="205" enabled="true" coordinate="145,45" dc:id="REPORT_LOSS_DATE3"/>
+      <dc:Label dc:text="6024_10" coordinate="20,105"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,255"/>
+      <dc:Label dc:text="6024_42" coordinate="20,405"/>
+      <dc:Label dc:text="6024_2" coordinate="370,105"/>
+      <dc:TextField xwidth="495" enabled="true" coordinate="145,225"/>
+      <dc:Label dc:text="6024_43" coordinate="370,45"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,195"/>
+      <dc:TextField xwidth="495" enabled="true" coordinate="145,165"/>
+      <dc:Label dc:text="6024_44" coordinate="20,15"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,135"/>
+      <dc:TextField xwidth="495" enabled="true" coordinate="145,465" dc:id="HANGUP_REMARK3"/>
+      <dc:Label dc:text="6024_45" coordinate="20,45"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="145,75" dc:ref="TPSPJZL6410"/>
+      <dc:CalendarText xwidth="205" enabled="true" coordinate="145,105" dc:id="BILL_SIGN_DATE3"/>
+      <dc:Label dc:text="6024_46" coordinate="20,195"/>
+      <dc:Label dc:text="6024_17" coordinate="19,224"/>
+      <dc:Label dc:text="6024_47" coordinate="20,435"/>
+      <dc:Label dc:text="6024_48" coordinate="20,465"/>
+      <dc:Label dc:text="6024_49" coordinate="20,165"/>
+      <dc:Label dc:text="6024_12" coordinate="369,14"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="470,105"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="470,15" dc:ref="TPSJYZTALL"/>
+      <dc:Label dc:text="6024_50" coordinate="20,255"/>
+      <dc:TextField xwidth="495" enabled="true" coordinate="144,434"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="470,75"/>
+      <dc:TextField xwidth="495" enabled="true" coordinate="144,404"/>
+      <dc:TextField xwidth="495" enabled="true" coordinate="144,374"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="470,45"/>
+      <dc:TextField xwidth="495" enabled="true" coordinate="144,314"/>
+      <dc:TextField xwidth="320" enabled="true" coordinate="144,344" dc:id="PAYEE_ACCT3"/>
+    </dc:SubArea>
+    <dc:SubArea dc:text="6024_14" coordinate="25,2485">
+      <dc:Label dc:text="6024_10" coordinate="20,75"/>
+      <dc:Label dc:text="6024_42" coordinate="19,374"/>
+      <dc:Label dc:text="6024_2" coordinate="370,75"/>
+      <dc:Label dc:text="6024_47" coordinate="19,404"/>
+      <dc:Label dc:text="6024_30" coordinate="19,344"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,15"/>
+      <dc:Label dc:text="6024_46" coordinate="20,165"/>
+      <dc:Label dc:text="6024_22" coordinate="20,105"/>
+      <dc:TextField xwidth="495" enabled="true" coordinate="144,284"/>
+      <dc:Label dc:text="6024_49" coordinate="20,135"/>
+      <dc:TextField xwidth="320" enabled="true" coordinate="144,254" dc:id="APPLYER_ACCT_NO4"/>
+      <dc:Label dc:text="6024_5" coordinate="370,45"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,225"/>
+      <dc:TextField xwidth="495" enabled="true" coordinate="145,195"/>
+      <dc:Label dc:text="6024_43" coordinate="20,15"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,165"/>
+      <dc:Label dc:text="6024_41" coordinate="20,45"/>
+      <dc:Label dc:text="6024_50" coordinate="20,225"/>
+      <dc:Label dc:text="6024_32" coordinate="19,254"/>
+      <dc:CalendarText xwidth="205" enabled="true" coordinate="145,75" dc:id="BILL_SIGN_DATE4"/>
+      <dc:Label dc:text="6024_17" coordinate="20,195"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="145,45" dc:ref="TPSPJZL6410"/>
+      <dc:Label dc:text="6024_12" coordinate="369,14"/>
+      <dc:TextField xwidth="495" enabled="true" coordinate="145,135"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="470,15" dc:ref="TPSJYZTALL"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,105"/>
+      <dc:Label dc:text="6024_33" coordinate="19,284"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="470,75"/>
+      <dc:TextField xwidth="495" enabled="true" coordinate="144,404"/>
+      <dc:Label dc:text="6024_23" coordinate="19,314"/>
+      <dc:TextField xwidth="495" enabled="true" coordinate="144,374"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="470,45"/>
+      <dc:TextField xwidth="495" enabled="true" coordinate="144,344"/>
+      <dc:TextField xwidth="320" enabled="true" coordinate="144,314" dc:id="PAYEE_ACCT4"/>
+    </dc:SubArea>
+    <dc:SubArea dc:text="6024_14" coordinate="25,2080">
+      <dc:Label dc:text="6024_25" coordinate="20,75"/>
+      <dc:Label dc:text="6024_28" coordinate="20,315"/>
+      <dc:Label dc:text="6024_9" coordinate="360,75"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="135,45" dc:id="LOG_NO5"/>
+      <dc:Label dc:text="6024_50" coordinate="20,285"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="135,15"/>
+      <dc:Label dc:text="6024_10" coordinate="20,135"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="135,105" dc:ref="TPSHPZL6401"/>
+      <dc:Label dc:text="6024_41" coordinate="20,105"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="135,225"/>
+      <dc:Label dc:text="6024_5" coordinate="360,105"/>
+      <dc:TextField xwidth="500" enabled="true" coordinate="135,195"/>
+      <dc:Label dc:text="6024_24" coordinate="360,45"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="135,165"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="460,135"/>
+      <dc:Label dc:text="6024_11" coordinate="20,15"/>
+      <dc:Label dc:text="6024_26" coordinate="20,45"/>
+      <dc:CalendarText xwidth="205" enabled="true" coordinate="135,135" dc:id="BILL_SIGN_DATE5"/>
+      <dc:Label dc:text="6024_8" coordinate="20,165"/>
+      <dc:Label dc:text="6024_51" coordinate="20,195"/>
+      <dc:Label dc:text="6024_2" coordinate="360,135"/>
+      <dc:Label dc:text="6024_12" coordinate="359,14"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="460,105"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="460,15" dc:ref="TPSJYZTALL"/>
+      <dc:Label dc:text="6024_52" coordinate="20,225"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="460,75"/>
+      <dc:Label dc:text="6024_17" coordinate="20,255"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="135,75"/>
+      <dc:TextField xwidth="500" enabled="true" coordinate="135,315"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="460,45"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="135,285"/>
+      <dc:TextField xwidth="500" enabled="true" coordinate="135,255"/>
+    </dc:SubArea>
+    <dc:SubArea dc:text="6024_14" coordinate="25,1595">
+      <dc:Label dc:text="6024_25" coordinate="20,70"/>
+      <dc:Label dc:text="6024_53" coordinate="20,250"/>
+      <dc:Label dc:text="6024_54" coordinate="370,70"/>
+      <dc:Label dc:text="6024_55" coordinate="20,280"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="469,39"/>
+      <dc:CalendarText xwidth="205" enabled="true" coordinate="150,370" dc:id="PROMPT_DATE6"/>
+      <dc:Label dc:text="6024_56" coordinate="370,220"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="150,10"/>
+      <dc:Label dc:text="6024_10" coordinate="370,130"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="470,280" dc:ref="TPSDFLX6405" dc:id="PAY_TYPE6"/>
+      <dc:Label dc:text="6024_57" coordinate="20,100"/>
+      <dc:Label dc:text="6024_58" coordinate="370,280"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="470,190"/>
+      <dc:Label dc:text="6024_46" coordinate="20,130"/>
+      <dc:Label dc:text="6024_23" coordinate="20,310"/>
+      <dc:Label dc:text="6024_24" coordinate="369,39"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="470,160"/>
+      <dc:TextField xwidth="490" enabled="true" coordinate="150,400"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="150,160" dc:id="BILL_NO6"/>
+      <dc:Label dc:text="6024_11" coordinate="20,10"/>
+      <dc:TextField xwidth="490" enabled="true" coordinate="150,340"/>
+      <dc:Label dc:text="6024_26" coordinate="19,39"/>
+      <dc:TextField xwidth="320" enabled="true" coordinate="150,310" dc:id="PAYEE_ACCT6"/>
+      <dc:CalendarText xwidth="205" enabled="true" coordinate="470,130" dc:id="BILL_SIGN_DATE6"/>
+      <dc:Label dc:text="6024_22" coordinate="370,160"/>
+      <dc:Label dc:text="6024_28" coordinate="20,400"/>
+      <dc:Label dc:text="6024_20" coordinate="20,190"/>
+      <dc:Label dc:text="6024_30" coordinate="20,340"/>
+      <dc:Label dc:text="6024_16" coordinate="20,160"/>
+      <dc:Label dc:text="6024_59" coordinate="20,370"/>
+      <dc:Label dc:text="6024_12" coordinate="369,9"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="150,130"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="470,10" dc:ref="TPSJYZTALL"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="150,190" dc:ref="TPSHPZL6401" dc:id="BILL_CODE6"/>
+      <dc:TextField xwidth="490" enabled="true" coordinate="150,100"/>
+      <dc:Label dc:text="6024_60" coordinate="370,190"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="151,71"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="150,280"/>
+      <dc:Label dc:text="6024_61" coordinate="20,220"/>
+      <dc:TextField xwidth="490" enabled="true" coordinate="150,250"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="470,70"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="150,40" dc:id="LOG_NO6"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="470,220"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="150,220" dc:id="SETTLE_AMT6"/>
+    </dc:SubArea>
+    <dc:SubArea dc:text="6024_14" coordinate="25,3590">
+      <dc:Label dc:text="6024_46" coordinate="20,75"/>
+      <dc:Label dc:text="6024_13" coordinate="380,75"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="144,44"/>
+      <dc:CalendarText xwidth="205" enabled="true" coordinate="470,15" dc:id="BILL_SIGN_DATE7"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,15"/>
+      <dc:ListBox dc:showtype="border" xwidth="205" enabled="true" coordinate="470,75" dc:ref="TPSPJZT6412"/>
+      <dc:Label dc:text="6024_5" coordinate="20,15"/>
+      <dc:Label dc:text="6024_8" coordinate="379,44"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="145,75"/>
+      <dc:TextField xwidth="205" enabled="true" coordinate="469,44"/>
+      <dc:Label dc:text="6024_10" coordinate="380,15"/>
+      <dc:Label dc:text="6024_2" coordinate="19,44"/>
+    </dc:SubArea>
+  </dc:ViewLayout>
+</dc:Scene>
+
+
+-----------uidl输出完毕！------
+
+
+国际化文件zh存在！
+
+
+原有国际化文件zh已删除！
+
+
+国际化文件en存在！
+
+
+原有国际化文件en已删除！
+
+
+转换成功！！！
